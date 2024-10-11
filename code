@@ -1,0 +1,13 @@
+t = int(input())
+
+for i in range(t):
+  d=int(input())
+
+  if d>=1900:
+    print("Division 1")
+  elif d>=1600 and d<=1899:
+    print("Division 2")
+  elif d>=1400 and d<=1599:
+    print("Division 3")
+  else:
+    print("Division 4")
